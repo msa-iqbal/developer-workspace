@@ -51,12 +51,14 @@ This structure follows the PARA methodology and scales well for large vaults.
 Navigate to:
 
 ```text
-Settings
+Settings > Files and Links
 ```
 
 ## Files & Links
 
-### New Notes Location
+### `Default location for new notes`
+
+Select "In the folder specified below" via dropdown and add existing folder like as -
 
 Recommended:
 
@@ -64,7 +66,9 @@ Recommended:
 00-Inbox
 ```
 
-### Default Location for Attachments
+### `Default location for new attachments`
+
+Select "In the folder specified below" via dropdown and add existing folder like as -
 
 Recommended:
 
@@ -78,7 +82,7 @@ Enable:
 
 * 🗹 Automatically update internal links
 
-## Editor
+# 🗁 Editor
 
 Enable:
 
@@ -87,7 +91,7 @@ Enable:
 * 🗹 Fold indents
 * 🗹 Properties in document
 
-## Appearance
+# 🗁 Appearance
 
 Recommended:
 
@@ -130,15 +134,24 @@ Settings → Core Plugins
 Enable:
 
 * 🗹 Backlinks
-* 🗹 Command Palette
-* 🗹 Daily Notes (Optional)
+* 🗹 Bookmarks
+* 🗹 Bases (Optional)
+* 🗹 Canvas
+* 🗹 Command Palette (Optional)
+* 🗹 Daily Notes
 * 🗹 Files
 * 🗹 File Recovery
+* 🗹 Graph view (Optional)
+* 🗹 Note composer 
 * 🗹 Outgoing Links
 * 🗹 Outline
 * 🗹 Page Preview
+* 🗹 Quick Switcher (Optional; When using `OmniSearch` plugin)
+* 🗹 Sync (Optional; If you using another cloud for sync.)
+* 🗹 Search (Optional; When using `OmniSearch` plugin)
 * 🗹 Templates
-* 🗹 Workspaces
+* 🗹 Word count
+* 🗹 Workspaces (Optional)
 
 ### Daily Notes
 
@@ -170,14 +183,16 @@ Settings → Community Plugins
 
 Disable Safe Mode and install the following.
 
-| CATEGORIES           | PLUG-IN     | BENEFITS                                                   |
-| -------------------- | ----------- | ---------------------------------------------------------- |
-| Productivity         | Calendar    | Daily note navigation, Weekly planning, Monthly overview   |
-| Productivity         | Tasks       | Task tracking, Due dates, Project management               |
-| Productivity         | QuickAdd    | Fast note capture, Automated workflows, Templates          |
-| Knowledge Management | Omnisearch  | Faster searching, Better note discovery                    |
-| Developer            | Git         | Automatic backups, Version control, GitHub synchronization |
-| Productivity         | Change Case | Changing letter/word to specific letter case.              |
+| CATEGORIES           | PLUG-IN                                                                | BENEFITS                                                   |
+| -------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------- |
+| Productivity         | Calendar                                                               | Daily note navigation, Weekly planning, Monthly overview   |
+| Productivity         | Tasks                                                                  | Task tracking, Due dates, Project management               |
+| Productivity         | QuickAdd                                                               | Fast note capture, Automated workflows, Templates          |
+| Knowledge Management | 🔥[Omnisearch](obsidian://show-plugin?id=omnisearch)                   | Faster searching, Better note discovery                    |
+| Developer            | Git                                                                    | Automatic backups, Version control, GitHub synchronization |
+| Productivity         | 🔥 [Change Case](obsidian://show-plugin?id=change-case)                | Changing letter/word to specific letter case.              |
+| Screen Lock          | 🔥[Lock Screen](obsidian://show-plugin?id=obsidian-lock-screen-plugin) | Protect your vault with a lock screen                      |
+| Drawing              | 🔥[Excalidraw](obsidian://show-plugin?id=obsidian-excalidraw-plugin)   | Create and edit Excalidraw drawings                        |
 
 # 🗁 GRAPH VIEW
 
@@ -188,8 +203,6 @@ Graph View → Settings
 ```
 
 Recommended:
-
-### Filter Small Notes
 
 Enable:
 
@@ -247,7 +260,7 @@ Choose one:
 
 * GitHub Private Repository
 * Syncthing
-* Dropbox
+* Dropbox ⌝
 * Google Drive
 * OneDrive
 
@@ -276,7 +289,7 @@ Recommended:
 Navigate to:
 
 ```text
-Settings → Appearance
+Settings → General
 ```
 
 Enable:
