@@ -142,7 +142,7 @@ Enable:
 * 🗹 Files
 * 🗹 File Recovery
 * 🗹 Graph view (Optional)
-* 🗹 Note composer 
+* 🗹 Note composer
 * 🗹 Outgoing Links
 * 🗹 Outline
 * 🗹 Page Preview
@@ -185,14 +185,16 @@ Disable Safe Mode and install the following.
 
 | CATEGORIES           | PLUG-IN                                                                | BENEFITS                                                   |
 | -------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------- |
-| Productivity         | Calendar                                                               | Daily note navigation, Weekly planning, Monthly overview   |
-| Productivity         | Tasks                                                                  | Task tracking, Due dates, Project management               |
-| Productivity         | QuickAdd                                                               | Fast note capture, Automated workflows, Templates          |
+| Productivity         | [Calendar](obsidian://show-plugin?id=calendar)                         | Daily note navigation, Weekly planning, Monthly overview   |
+| Productivity         | [Tasks](obsidian://show-plugin?id=obsidian-tasks-plugin)               | Task tracking, Due dates, Project management               |
+| Productivity         | [QuickAdd](obsidian://show-plugin?id=quickadd)                         | Fast note capture, Automated workflows, Templates          |
 | Knowledge Management | 🔥[Omnisearch](obsidian://show-plugin?id=omnisearch)                   | Faster searching, Better note discovery                    |
-| Developer            | Git                                                                    | Automatic backups, Version control, GitHub synchronization |
+| Developer            | [Git](obsidian://show-plugin?id=obsidian-git)                          | Automatic backups, Version control, GitHub synchronization |
 | Productivity         | 🔥 [Change Case](obsidian://show-plugin?id=change-case)                | Changing letter/word to specific letter case.              |
 | Screen Lock          | 🔥[Lock Screen](obsidian://show-plugin?id=obsidian-lock-screen-plugin) | Protect your vault with a lock screen                      |
 | Drawing              | 🔥[Excalidraw](obsidian://show-plugin?id=obsidian-excalidraw-plugin)   | Create and edit Excalidraw drawings                        |
+| Terminal             | 🔥[Terminal](obsidian://show-plugin?id=terminal)                       | Integrate consoles, shells, and terminals                  |
+| Linting              | 🔥[Markdownlint](obsidian://show-plugin?id=markdownlint)               | Markdown code-quality checker                              |
 
 # 🗁 GRAPH VIEW
 
